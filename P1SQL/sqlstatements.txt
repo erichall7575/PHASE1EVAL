@@ -1,0 +1,18 @@
+Write a SQL UPDATE statement to change Reymin Guduan's salary to 73000
+
+UPDATE employee
+set salary=73000
+where employeepk=7
+
+or 
+
+UPDATE employee
+set salary=73000
+where firstname='Reymin'
+and lastname='Guduan'
+
+Write a SQL SELECT statement to select all employees in New York that make over 70000 a year
+
+SELECT *
+FROM employee
+WHERE salary>70000;
